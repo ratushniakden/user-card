@@ -1,0 +1,145 @@
+html {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  background-color: #f5f6f8;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 300px;
+  min-height: 500px;
+  margin: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 48px -20px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(246, 246, 246);
+  box-shadow: 0px 0px 300px -53px rgb(200, 200, 200);
+  font-weight: bold;
+}
+
+.starIcon {
+  position: absolute;
+  margin-top: 115px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+}
+.starSize {
+  width: 15px;
+  height: 15px;
+  margin-top: 120px;
+}
+
+.userImage {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.userInfo > h1 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.userInfo > p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: small;
+  color: grey;
+}
+
+.userAddress {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.fa-map-marker-alt {
+  margin-right: 5px;
+}
+
+.userAddress h3,
+p {
+  color: grey;
+}
+
+.userAddress > h2 {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.userAddress > h3 {
+  margin-top: 10px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.userAddress > p {
+  font-size: 0.7rem;
+  margin: 20px 30px 20px 30px;
+  line-height: 1.2rem;
+}
+
+.additionalInfoBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #039be6;
+  color: white;
+  border: none;
+  padding: 10px 50px 10px 50px;
+  border-radius: 15px;
+  outline: none;
+  margin: 2.5px;
+  font-weight: bold;
+}
+.btn:first-child {
+  background-color: white;
+  color: #039be6;
+  border: 1.5px solid #039be6;
+}
+
+.userStatus {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.userStatus p {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.statusOnline {
+  margin-right: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #87c243;
+}
+
+.statusOffline {
+  display: none;
+}
